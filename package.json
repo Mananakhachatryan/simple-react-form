@@ -1,0 +1,91 @@
+{
+  "name": "simple-react-form",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.26",
+    "@fortawesome/free-solid-svg-icons": "^5.12.0",
+    "@fortawesome/react-fontawesome": "^0.1.8",
+    "@material-ui/core": "^4.9.0",
+    "antd": "3.21.4",
+    "aws-amplify": "^1.3.3",
+    "axios": "^0.19.2",
+    "bizcharts": "^3.5.6",
+    "bootstrap": "^4.4.1",
+    "eslint-plugin-sonarjs": "^0.4.0",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "node-sass": "^4.13.1",
+    "query-string": "^6.10.1",
+    "react": "^16.12.0",
+    "react-animated-css": "^1.2.1",
+    "react-dom": "^16.12.0",
+    "react-ga": "^2.7.0",
+    "react-images": "^1.1.0-beta.3",
+    "react-moment": "^0.9.7",
+    "react-onclickoutside": "^6.9.0",
+    "react-redux": "^7.1.3",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.3.1",
+    "react-stripe-checkout": "^2.6.3",
+    "react-toastify": "^3.3.4",
+    "react-validation": "^3.0.7",
+    "reactstrap": "^7.1.0",
+    "recharts": "^1.8.5",
+    "redux": "^4.0.5",
+    "redux-actions": "^2.6.5",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.18.0",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "eslint-plugin-react-native": "^3.8.1",
+    "eslint-plugin-unicorn": "^10.0.0",
+    "husky": "^2.3.0",
+    "lint-staged": "^8.1.7",
+    "prettier": "^1.19.1",
+    "pretty-quick": "^1.11.0"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mananakhachatryan/simple-react-form.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mananakhachatryan/simple-react-form/issues"
+  },
+  "homepage": "https://github.com/Mananakhachatryan/simple-react-form#readme"
+}

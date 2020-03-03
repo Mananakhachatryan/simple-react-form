@@ -1,0 +1,16 @@
+.loader-box{
+    z-index: 1000;
+    position: fixed!important;
+    width: 100%;
+    height: 100vh;
+    .ant-spin-dot-item{
+        background-color: #19d7db!important;
+    }
+    .ant-spin-text{
+        color: #19d7db!important;
+    }
+    &.loader-bg{
+        background-color: #000;
+        opacity: .7;
+    }
+}
