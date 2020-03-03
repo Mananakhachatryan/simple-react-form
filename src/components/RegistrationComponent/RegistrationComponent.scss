@@ -13,16 +13,13 @@ body{
       margin: 5px 0;
       display: block;
     }
-    .ant-form-item-label{
-      padding-bottom: 0px;
+    label{
+      padding-bottom: 5px;
       margin-bottom: 0px;
-      line-height: 20px;
-      label{
-        padding-bottom: 5px;
-        margin-bottom: 0px;
-        font-size: 14px;
-        font-weight: 500;
-      }
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 16px;
+      display: block;
     }
     .ant-form-item-children-icon{
       display: none;

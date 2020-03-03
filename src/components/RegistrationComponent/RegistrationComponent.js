@@ -118,6 +118,7 @@ const RegistrationComponent = ({
         <div className="col-sm-12">
           <Form>
             <Form.Item hasFeedback validateStatus={error.course}>
+              <label>Course</label>
               <Radio.Group onChange={ (e) => onChange(e, 'course')}  value={data.course} >
                 <Radio value={1}>Technical Report Writing</Radio>
                 <Radio value={2}>English Literature</Radio>
@@ -125,6 +126,7 @@ const RegistrationComponent = ({
               </Radio.Group>
             </Form.Item>
             <Form.Item hasFeedback validateStatus={error.subject}>
+              <label>Subject</label>
               <Select onChange={ (e) => onChange(e, 'subject')} value={data.subject}>
               {subjectList.map(item => (
                 <Option key={item} value={item}>
@@ -134,6 +136,7 @@ const RegistrationComponent = ({
             </Select>
             </Form.Item>
             <Form.Item hasFeedback validateStatus={error.startDate}>
+              <label>Start Date</label>
               <DatePicker
                 onChange={onChangeDate}
               />
@@ -142,6 +145,7 @@ const RegistrationComponent = ({
               }
             </Form.Item>
             <Form.Item hasFeedback validateStatus={error.additionalNotes}>
+              <label>Additional Notes</label>
               <TextArea rows={4} onChange={ (e) => onChange(e, 'additionalNotes')}/>
             </Form.Item>
 
